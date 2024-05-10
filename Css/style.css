@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section
+{
+    padding: 90px 0;
+    overflow: hidden;
+}
+
+/*--------Navbar--------*/
+.navbar-expand-lg .navbar-nav .nav-link{
+    /* width: 66px;
+    height: 19px; */
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19.36px;
+    padding: 10px 15px;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ffc107 ;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: transparent;
+    color: #ffc107 ;
+    border-color: #ffc107;
+}
+
+.custom-navbar
+{
+    padding: 10px;
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-brand span{
+    color: #ffc107 ;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav .pt::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffc107 ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .pt:hover::after{
+    width: 100%;
+}
+.collapse button{
+    font-weight: bold;
+    border-radius: 50px;
+
+
+}
+/*--------End Navbar--------*/
+
+/* HOme Style */
+.home-content h4{
+    width: 131px;
+    height: 39px;
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 38.73px;
+    color: #ffc107;
+}
+
+.home-content h1{
+    font-size: 56px;
+    line-height: 70.22px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-content p{
+    width: 317px;
+    height: 78px;
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 38.73px;
+    color: #A9A7A7;
+    margin-top: 15px;
+}
+.pt{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+
+.img-box{
+border-radius: 50%;
+background-color: #EFEFEF;
+padding: 12px;
+margin: 12px;
+}
+
+/* End Home Style */
+
+/* About Style */
+#about{
+    background-color: #FBDA69;
+}
+#about .heading{
+margin: auto;
+ 
+}
+#about .heading h2{
+    color: #000000;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67.77px;
+
+}
+#about .heading .line{
+content: '';
+width: 50%;
+height: 4px;
+background: #FFFFFF ;
+display: block;
+}
+
+#about .body p{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51.2px;
+    color: #000000;
+}
+#about .body button{
+    font-weight: bold;
+    border-radius: 50px;
+}
+#about .body .btn-1{
+    background-color: #FFFFFF;
+
+}
+
+
+/* End About Style */
