@@ -106,6 +106,7 @@ border-radius: 50%;
 background-color: #EFEFEF;
 padding: 12px;
 margin: 12px;
+cursor: pointer;
 }
 
 /* End Home Style */
@@ -150,3 +151,54 @@ display: block;
 
 
 /* End About Style */
+
+/* Services Style */
+#services h2{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67.77px;
+}
+
+#services p{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33.89px;
+    color: #A9A7A7;
+}
+
+#services .line-s{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: black ;
+    display: block;
+    margin-top: 120px;
+}
+#services .line-m{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: black ;
+    display: block;
+    margin-top: 20px;
+
+}
+#services h3{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55.67px;
+}
+#services .number{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 33.89px;
+}
+#services .link-box{
+    border-radius: 30%;
+    background-color: #FBDA69;
+    padding: 12px;
+    margin: 62px;
+    float: right;
+    font-size: 26px;
+    cursor: pointer;
+}
